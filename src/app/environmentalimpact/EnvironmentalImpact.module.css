@@ -1,0 +1,64 @@
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.impact {
+    margin-bottom: 20px;
+}
+
+.impact span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.progressBar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+}
+
+.progress {
+    background: linear-gradient(to right, red, yellow, green);
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.limits {
+    margin-top: 20px;
+}
+
+.limits span:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.limitContent {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.limitContent span:first-child {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
